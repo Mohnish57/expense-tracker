@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #9b9b9b;
+  flex-wrap: wrap;
+}
+.cardInfo {
+  line-height: 0;
+}
+
+.cardIcon {
+  background: #d9d9d9;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.innerCard {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.primary {
+  color: var(--color-orange);
+  font-weight: 600;
+}

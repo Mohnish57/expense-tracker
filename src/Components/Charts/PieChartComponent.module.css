@@ -1,0 +1,21 @@
+.pieChartComp {
+  display: flex;
+  flex-direction: column;
+}
+.pieLabel {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.pieLabelsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+/* @media (max-width: ) */
+.labelColorBar {
+  width: 2rem;
+  height: 0.5rem;
+}

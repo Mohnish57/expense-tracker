@@ -1,0 +1,21 @@
+.title {
+  color: black;
+}
+.balanceForm {
+  display: flex;
+  gap: 1rem;
+}
+.incomeForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+input,
+select {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: -webkit-fill-available;
+}
